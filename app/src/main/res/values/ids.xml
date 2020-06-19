@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="selected_view" type="id"/>
+    <item name="fab_expand_menu_button" type="id"/>
+    <item name="fab_label" type="id"/>
+    <item name="search" type="id"/>
+    <item name="social_share" type="id"/>
+    <item name="add" type="id"/>
+    <item name="edit" type="id"/>
+    <item name="save" type="id"/>
+    <item name="setting" type="id"/>
+    <item name="sync" type="id"/>
+    <item name="view" type="id"/>
+    <item name="delete" type="id"/>
+    <item name="view_toggle" type="id"/>
+    <item name="dashboard" type="id"/>
+    <item name="myProfile" type="id"/>
+    <item name="allCourses" type="id"/>
+    <item name="myCourses" type="id"/>
+    <item name="viewNotes" type="id"/>
+    <item name="examResults" type="id"/>
+    <item name="feedback" type="id"/>
+    <item name="changePassword" type="id"/>
+    <item name="optionMenu" type="id"/>
+    <item name="optionOpen" type="id"/>
+
+//Video
+    <item name="tag_tracker_view" type="id"/>
+    <item name="view_play_video" type="id"/>
+    <item name="view_tracker" type="id"/>
+
+    //Tree View
+    <item name="node_header" type="id" />
+    <item name="node_items" type="id" />
+    <item name="tree_items" type="id" />
+
+    <item name="item_click_support" type="id" />
+</resources>

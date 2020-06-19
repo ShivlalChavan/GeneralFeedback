@@ -1,0 +1,246 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:windowDisablePreview">true</item>
+
+        //Navigation Drawer Selector background Color
+        <item name="colorControlHighlight">@color/gray</item>
+        <item name="actionMenuTextColor">@color/colorPrimary</item>
+        <item name="android:actionMenuTextColor">@color/colorPrimary</item>
+        <item name="android:activatedBackgroundIndicator">@color/colorPrimary</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="DialogTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">@android:color/white</item>
+        <item name="colorPrimary">@android:color/white</item><!-- Whatever color you want-->
+    </style>
+
+    <style name="Theme_Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/drawable_common_dialog_background</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="colorAccent">@color/orange</item>
+        <!-- Used for the title and text -->
+        <item name="android:windowMinWidthMajor">85%</item>
+        <item name="android:windowMinWidthMinor">85%</item>
+        <item name="android:textColorPrimary">@color/colorBlack</item>
+        <!-- Used for the background -->
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="LoginEdittext" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:textColor">@color/textColorBlue</item>
+        <item name="android:textColorHint">@color/textColorBlue</item>
+        <item name="colorAccent">@color/textColorBlue</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:paddingTop">@dimen/size_dp10</item>
+        <item name="android:paddingBottom">@dimen/size_dp10</item>
+    </style>
+
+
+    <style name="submitButtonBlue" parent="AppTheme">
+        <item name="android:background">@drawable/drawable_rectangle_with_blue_broder</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:paddingBottom">7dp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>z
+    </style>
+
+    <style name="checkBoxStyle" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="checkBoxStyle_1" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@color/textColorBlue</item>
+        <item name="android:textColorSecondary">@color/textColorBlue</item>
+    </style>
+
+    <style name="checkBox" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">@color/hintColorText</item>
+        <item name="android:paddingLeft">@dimen/size_dp10</item>
+        <item name="colorAccent">@color/textColorBlue</item>
+        <item name="android:colorAccent">@color/textColorBlue</item>
+    </style>
+
+    <style name="floatingEditTextStyle" parent="AppTheme">
+        <item name="android:textColor">@color/textColorBlue</item>
+        <item name="android:textColorHint">@color/hintColorText</item>
+        <item name="colorAccent">@color/gray_hint_color</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:lines">1</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/font_size_14sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/size_dp10</item>
+    </style>
+
+    <style name="MyMaterialTheme" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+
+        <item name="colorAccent">#FC6C2D</item>
+        ---> I used orange color here to display the picker dialog in orange color for marshmallow
+        device.
+
+    </style>
+
+    <style name="datepicker" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+    <style name="marginLeftRight_20dp">
+        <item name="android:layout_marginLeft">@dimen/size_dp20</item>
+        <item name="android:layout_marginRight">@dimen/size_dp20</item>
+    </style>
+
+    <style name="marginLeftRight_15dp">
+        <item name="android:layout_marginLeft">@dimen/size_dp15</item>
+        <item name="android:layout_marginRight">@dimen/size_dp15</item>
+    </style>
+
+    <style name="paddingLeftRight_20dp">
+        <item name="android:layout_marginLeft">@dimen/size_dp20</item>
+        <item name="android:layout_marginRight">@dimen/size_dp20</item>
+    </style>
+
+    <style name="marginLeftRight_10dp">
+        <item name="android:layout_marginLeft">@dimen/size_dp10</item>
+        <item name="android:layout_marginRight">@dimen/size_dp10</item>
+    </style>
+
+
+    <style name="simpleEditText">
+
+        <item name="android:inputType">text</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="phoneEditText">
+
+        <item name="android:inputType">text</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="submitButton" parent="AppTheme">
+        <item name="android:background">@color/green_background</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+    <style name="rejectButon" parent="AppTheme">
+        <item name="android:background">@color/reject_btn_color</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+
+
+    <style name="submitButton_1" parent="AppTheme">
+        <item name="android:background">@drawable/drawable_rectangle_with_green_broder</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:paddingBottom">7dp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+    </style>
+
+    <style name="spinner_style" parent="@style/Widget.AppCompat.Spinner">
+        <item name="overlapAnchor">true</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:background">@drawable/drawable_spinner_background</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="DialogTheme1" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">@color/white</item>
+        <item name="colorPrimary">@color/white</item><!-- Whatever color you want-->
+    </style>
+
+
+
+    <style name="textLabel" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/colorBlack</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/grey</item>
+        <item name="colorControlNormal">@color/colorBlack</item>
+        <item name="colorControlActivated">@color/orange</item>
+    </style>
+
+
+    <style name="dialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+
+    <style name="textViewWithRoundedBlueBackground">
+        <item name="android:paddingTop">@dimen/size_dp5</item>
+        <item name="android:paddingBottom">@dimen/size_dp5</item>
+        <item name="android:paddingLeft">@dimen/size_dp15</item>
+        <item name="android:paddingRight">@dimen/size_dp15</item>
+        <item name="android:background">@drawable/rounded_button_with_blue_background</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_size_14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:lines">1</item>
+    </style>
+
+
+
+    <declare-styleable name="SmileRating">
+        <attr name="angryColor" format="color" />
+        <attr name="normalColor" format="color" />
+        <attr name="drawingColor" format="color" />
+        <attr name="showLine" format="boolean" />
+        <attr name="placeHolderSmileColor" format="color" />
+        <attr name="placeHolderBackgroundColor" format="color" />
+        <attr name="textSelectionColor" format="color" />
+        <attr name="textNonSelectionColor" format="color" />
+        <attr name="isIndicator" format="boolean" />
+    </declare-styleable>
+
+
+
+</resources>

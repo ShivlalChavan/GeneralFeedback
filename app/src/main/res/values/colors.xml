@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#014d80</color>
+    <color name="colorPrimaryDark">#0164a7</color>
+    <color name="textColorBlue">#1B2E5A</color>
+    <color name="colorAccent">#fff</color>
+    <color name="gray_hint_color">#a9a9a9</color>
+    <color name="textColor">#B2B2B2</color>
+    <color name="yellow_divider">#dac279</color>
+    <color name="transparent_grey">#a2717070</color>
+    <color name="green">#63c556</color>
+    <color name="dark_green">#01a901</color>
+    <color name="off_blue_white">#dde4e9</color>
+    <color name="light_blue_background">#f4f9fd</color>
+    <color name="leaderboard_expandable_bg">#FAFAFA</color>
+    <color name="graph_center_color">#02D4E1</color>
+    <color name="graph_start_color">#0064CC</color>
+    <color name="graph_end_color">#01B5F0</color>
+    <color name="color_dark_gray">#9da0a2</color>
+    <color name="hint_color_text">#a9a9a9</color>
+    <color name="hintColorText">#a9a9a9</color>
+
+    <color name="interactive_text">#fff53700</color>
+    <color name="primary_red">#E4480D</color>
+    <color name="dark_purple">#2F3C71</color>
+    <color name="transparent">#00000000</color>
+    <color name="light_light_grey">#a4a4a4</color>
+    <color name="grey">#6e6d6d</color>
+    <color name="blue_color">#1B60A6</color>
+    <color name="off_white">#e6e4e4</color>
+
+
+    //My Own
+    <color name="gray_divider_color">#E8E8E8</color>
+    <color name="gray">#c6c6c6</color>
+    <color name="darkGray">#808080</color>
+    <color name="colorBlack">#5a5a5a</color>
+    <color name="colorDarkBlack">#000000</color>
+    <color name="green_background">#4ab249</color>
+    <color name="lightBlue">#8B8CC4</color>
+    <color name="darkBlue">#3B5998</color>
+    <color name="colorYellow">#CBAB00</color>
+    <color name="white">#fff</color>
+    <color name="textBlueColor">#161982</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="onBoardingBg">#F2F2F2</color>
+    <color name="btn_dark_orange">#F2643E</color>
+    <color name="background_color_new">#B1B2B4</color>
+
+    <color name="FLAT_SOLD">#00b300</color>
+    <color name="FLAT_NOTCONFIRMED">#CEDE63</color>
+    <color name="FLAT_UNSOLD">#6169AF</color>
+    <color name="FLAT_HOLD">#F79551</color>
+
+    <color name="orange">#f59800</color>
+
+    //toolbar
+    <color name="brown">#8e040e</color>
+
+    //Bottom Sheet
+    <color name="text_gray">#8C000000</color>
+    <color name="divider_gray">#AAe2e2e2</color>
+
+    //Dashed EditText
+    <color name="text_main_color">#000000</color>
+    <color name="underline_base_color">#c0c1c4</color>
+    <color name="underline_filled_color">#c8182d</color>
+    <color name="underline_cursor_color">#c8182d</color>
+    <color name="underline_selected_color">#000000</color>
+
+
+    <color name="sendotp_grey">#636363</color>
+    <color name="sendotp_medium_grey">#B0B0B0</color>
+    <color name="sendotp_light_grey">#D9D9D9</color>
+
+    <color name="reject_btn_color">#F82717</color>
+
+</resources>

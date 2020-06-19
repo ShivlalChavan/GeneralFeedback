@@ -1,0 +1,138 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="grid_spacing">3dp</dimen>
+    <dimen name="spacing">6dp</dimen>
+    <dimen name="event_title_text_size">18sp</dimen>
+    <dimen name="font_size_10sp">10sp</dimen>
+    <dimen name="font_size_11sp">11sp</dimen>
+    <dimen name="font_size_12sp">12sp</dimen>
+    <dimen name="font_size_13sp">13sp</dimen>
+    <dimen name="font_size_14sp">14sp</dimen>
+    <dimen name="font_size_15sp">15sp</dimen>
+    <dimen name="font_size_16sp">16sp</dimen>
+    <dimen name="font_size_17sp">17sp</dimen>
+    <dimen name="font_size_18sp">18sp</dimen>
+    <dimen name="font_size_19sp">19sp</dimen>
+    <dimen name="font_size_21sp">21sp</dimen>
+    <dimen name="font_size_20sp">20sp</dimen>
+    <dimen name="font_size_22sp">22sp</dimen>
+    <dimen name="font_size_24sp">24sp</dimen>
+    <dimen name="font_size_25sp">25sp</dimen>
+    <dimen name="font_size_28sp">28sp</dimen>
+    <dimen name="font_size_30sp">30sp</dimen>
+    <dimen name="font_size_32sp">32sp</dimen>
+    <dimen name="font_size_45sp">45sp</dimen>
+    <dimen name="font_size_46sp">46sp</dimen>
+    <dimen name="font_size_48sp">48sp</dimen>
+    <dimen name="font_size_56sp">56sp</dimen>
+    <dimen name="font_size_72sp">72sp</dimen>
+    <dimen name="font_size_98sp">98sp</dimen>
+
+
+    <dimen name="size_dp1">1dp</dimen>
+    <dimen name="size_dp2">2dp</dimen>
+    <dimen name="size_dp3">3dp</dimen>
+    <dimen name="size_dp4">4dp</dimen>
+    <dimen name="size_dp5">5dp</dimen>
+    <dimen name="size_dp6">6dp</dimen>
+    <dimen name="size_dp7">7dp</dimen>
+    <dimen name="size_dp8">8dp</dimen>
+    <dimen name="size_dp9">9dp</dimen>
+    <dimen name="size_dp10">10dp</dimen>
+    <dimen name="size_dp11">11dp</dimen>
+    <dimen name="size_dp12">12dp</dimen>
+    <dimen name="size_dp14">14dp</dimen>
+    <dimen name="size_dp15">15dp</dimen>
+    <dimen name="size_dp16">16dp</dimen>
+    <dimen name="size_dp17">17dp</dimen>
+    <dimen name="size_dp18">18dp</dimen>
+    <dimen name="size_dp20">20dp</dimen>
+    <dimen name="size_dp22">22dp</dimen>
+    <dimen name="size_dp24">24dp</dimen>
+    <dimen name="size_dp25">25dp</dimen>
+    <dimen name="size_dp26">26dp</dimen>
+    <dimen name="size_dp28">28dp</dimen>
+    <dimen name="size_dp30">30dp</dimen>
+    <dimen name="size_dp32">32dp</dimen>
+    <dimen name="size_dp35">35dp</dimen>
+    <dimen name="size_dp40">40dp</dimen>
+    <dimen name="size_dp45">45dp</dimen>
+    <dimen name="size_dp46">46dp</dimen>
+    <dimen name="size_dp48">48dp</dimen>
+    <dimen name="size_dp50">50dp</dimen>
+    <dimen name="size_dp55">55dp</dimen>
+    <dimen name="size_dp56">56dp</dimen>
+    <dimen name="size_dp60">60dp</dimen>
+    <dimen name="size_dp70">70dp</dimen>
+    <dimen name="size_dp72">72dp</dimen>
+    <dimen name="size_dp75">75dp</dimen>
+    <dimen name="size_dp80">80dp</dimen>
+    <dimen name="size_dp98">98dp</dimen>
+    <dimen name="size_dp200">200dp</dimen>
+    <dimen name="size_dp180">180dp</dimen>
+
+    //Video Show
+    <dimen name="video_bottom_landscape">45dp</dimen>
+    <dimen name="video_bottom_portrait">35dp</dimen>
+    <dimen name="video_top_landscape">15dp</dimen>
+    <dimen name="video_top_portrait">8dp</dimen>
+    <dimen name="video_item_portrait_height">175dp</dimen>
+
+    <dimen name="video_small_screen_height">150dp</dimen>
+    <dimen name="video_small_screen_width">200dp</dimen>
+    <dimen name="video_small_screen_margin">5dp</dimen>
+
+    //bottom Sheet
+    <dimen name="bottomsheet_default_sheet_width">0dp</dimen>
+    <dimen name="bottomsheet_image_tile_spacing">4dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="header_height_expanded">220dp</dimen>
+    <!--size of bottom sheet when peeked. must not be more than when expanded, unless not using appBarLayout method-->
+    <dimen name="header_height_peeked">340dp</dimen>
+    <!--texts specs-->
+    <dimen name="moving_text_expanded_toolbar_bottom_margin">56dp</dimen>
+    <dimen name="moving_text_expanded_toolbar_margin_left">120dp</dimen>
+    <dimen name="moving_text_collapsed_toolbar_margin_right">14dp</dimen>
+    <dimen name="moving_text_collapsed_toolbar_top_and_bottom_padding">12dp</dimen>
+    <dimen name="header_view_start_margin_bottom">32dp</dimen>
+    <dimen name="moving_image_expanded_bottom_sheet_size">80dp</dimen>
+    <dimen name="moving_image_collapsed_bottom_sheet_size">110dp</dimen>
+
+    <dimen name="moving_image_expanded_bottom_sheet_margin_left">16dp</dimen>
+    <dimen name="moving_image_expanded_bottom_sheet_margin_bottom">32dp</dimen>
+    <dimen name="moving_image_collapsed_toolbar_top_and_bottom_padding">8dp</dimen>
+
+    <dimen name="column_width">80dp</dimen>
+
+
+    //Referenced from Sample App
+    <dimen name="dialog_width">300dp</dimen>
+    <dimen name="anti_theft_t9_key_paddingTop">5dp</dimen>
+    <dimen name="anti_theft_t9_key_paddingBottom">5dp</dimen>
+    <dimen name="get_started_img_height">170dp</dimen>
+    <dimen name="get_started_logo_size">55dp</dimen>
+    <dimen name="margin_top">30dp</dimen>
+    <dimen name="wake_up_device_icon_size">50dp</dimen>
+    <dimen name="device_large_icon_height">150dp</dimen>
+    <dimen name="large_meter_size">200dp</dimen>
+    <dimen name="home_menu_icon_size">40dp</dimen>
+    <dimen name="home_menu_text_size">17sp</dimen>
+    <dimen name="size_dp36">36dp</dimen>
+
+
+    //Dashed Edittext
+    <dimen name="underline_stroke_width">2dp</dimen>
+    <dimen name="code_text_size">18sp</dimen>
+
+
+
+    <dimen name="get_started_monitor_icon_size">50dp</dimen>
+
+    //show case
+    <dimen name="tv_content_margin">20dp</dimen>
+    <dimen name="content_box_margin_bottom">10dp</dimen>
+
+    <dimen name="button_min_width">90dp</dimen>
+</resources>

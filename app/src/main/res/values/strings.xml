@@ -1,0 +1,304 @@
+<resources>
+    <string name="app_name">Feedback App</string>
+
+
+    //Common Messages
+    <string name="name_empty">User name cannot be blank.</string>
+    <string name="name_length">User name should be min 3 alphanumeric characters.</string>
+    <string name="web_site_name_empty">Website link cannot be blank.</string>
+    <string name="web_site_name_not_valid">Please enter Valid website link</string>
+    <string name="email_empty">Email address cannot be blank.</string>
+    <string name="email_not_valid">Please enter a valid email address.</string>
+    <string name="api_error_message">Server error, Please try again</string>
+    <string name="sms_send_message">SMS sent Successfully</string>
+    <string name="gallery_caption">Gallery</string>
+    <string name="camera_caption">Capture</string>
+    <string name="otp_sent_success_message">OTP sent Successfully</string>
+    <string name="error_in_image_processing">Opps! Image can not be taken, Please try again</string>
+    <string name="error_in_api_calling_message">Opps! Something went wrong Please try again</string>
+    <string name="loading_label">Loading...</string>
+    <string name="buy_now_label">Buy Now</string>
+    <string name="erro_message">Opps! We Could not process at this time\nPlease try again</string>
+
+    <string name="password_empty">Password cannot be blank.</string>
+    <string name="password_length">Password length should be min 5 to max 15 alphanumeric characters.</string>
+
+    <string name="mobile_number_empty">Mobile number cannot be blank.</string>
+    <string name="mobile_number_length">Please enter valid Mobile number</string>
+    <string name="mobile_number_should_digit">Mobile Number must start with digit</string>
+
+
+    <string name="adhar_number_empty">Aadhar card Number shouldn\'t be Empty.</string>
+    <string name="adhar_number_not_valid">Please enter valid Aadhar card Number</string>
+
+    <string name="pin_code_empty">Pin code shouldn\'t be Empty.</string>
+    <string name="pin_code_not_valid">Please enter valid Pin code</string>
+
+    <string name="pan_number_empty">PAN card Number shouldn\'t be Empty.</string>
+    <string name="pan_number_not_valid">Please enter valid PAN card Number</string>
+
+    <string name="address_empty">User name cannot be blank.</string>
+    <string name="address_length">Address should have at least 25 characters</string>
+
+
+    //Permission Related Strings
+    <string name="rationale_title">Permission Denied</string>
+    <string name="rationale_retry">Retry</string>
+    <string name="rationale_dismiss">Dismiss</string>
+    <string name="permission_dialog_title">Need Multiple Permissions</string>
+    <string name="permission_denied_message">You denied App permissions, Hence App will not Performe well.\nPlease Allow app to get those permissions</string>
+    <string name="multiple_permission_message">This app needs Camera and Location permissions.</string>
+    <string name="action_settings">Settings</string>
+    <string name="error_message">Opps! Something went wrong Please help us by sending this mail</string>
+    <string name="internet_unavailable">Please make sure that you are connected to Internet</string>
+    <string name="should_grant_permission_messaged">You have not grant the neccessary Permission,\nHence this function will not work</string>
+    <string name="permission_label">Permissions</string>
+
+    //Dialog Related Strings
+    <string name="ok_label">OK</string>
+    <string name="profile_uploaded_but_not_downloaded">Profile Picture Uploaded, But unable to donwload. Please try again later</string>
+    <string name="service_profile_created_but_not_uploaded">Service Profile Created Successfully, But Profile Picture is not uploaded. Please try again later</string>
+    <string name="profile_picture_updated">Profile Picture Updated</string>
+    <string name="profile_picture_not_updated">Profile Picture not Updated</string>
+    <string name="retry_label">Retry</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="grant_label">Grant</string>
+    <string name="welcome_dialog_title">Welcome !!</string>
+    <string name="done_label">Done</string>
+    <string name="yes_label">Yes</string>
+    <string name="no_label">No</string>
+    <string name="please_wait_label">Please wait...</string>
+    <string name="try_me">TRY ME..</string>
+    <string name="you_can_try_curamus_glucometer_and_activity_tracker_now">You can try your curamus glucometer and activity tracker right now</string>
+    <string name="check_out_your_app_responds_every_time_msg">Check out how your app responds every time you take a glucose reading or when you take those foot steps</string>
+    <string name="submit_label">Submit</string>
+    <string name="sold_unsold_count">Sold Unsold Count</string>
+    <string name="outstanding_chart">Outstanding Chart</string>
+    <string name="sales_executive">Sales Executive Bar Chart</string>
+    <string name="sales_pi_executive">Sales Executive PI Chart</string>
+
+    //Launcher Screen
+    <string name="get_started">Get Started</string>
+    <string name="app_name_for_anti_theft">X</string>
+
+    //Drawer Related
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    //Dashboard
+    <string name="sold_flat_status">Solds Flat Status</string>
+    <string name="home">Home</string>
+    <string name="menu_mrn_label">MRN</string>
+    <string name="menu_po_label">PO</string>
+    <string name="menu_grn_label">GRN</string>
+    <string name="menu_invoice_label">Invoice</string>
+    <string name="menu_material_issue_label">Material Issue</string>
+    <string name="menu_daily_progress_report_label">Daily Progress Report</string>
+    <string name="menu_bill_label">Bill</string>
+    <string name="menu_stock_label">Stock</string>
+
+
+    <string name="sold_unsold_graph">Solds Unsold Graph</string>
+    <string name="outstanding_label">Outstanding</string>
+    <string name="graph_summary_label">Graph Summary</string>
+    <string name="graphical_flat_label">Graphical Flat Status</string>
+    <string name="no_flat_sold_status">No flat sold currently</string>
+    <string name="outstanding_details">Outstanding Details</string>
+    <string name="graphical_flat_details">Graphical Flat Details</string>
+    <string name="mrn_details_label">MRN Material Details</string>
+    <string name="add_material_label">Add Material</string>
+    <string name="material_details_label">Material Details</string>
+    <string name="graph_outstanding_details">Graphical Outstanding Details</string>
+    <string name="sales_executive_sale_details">Sales Executive Bar Chart</string>
+    <string name="sales_executive_sale_pie_details">Sales Executive Pie Chart</string>
+    <string name="rs_dasboard">\u20B9</string>
+    <string name="mrn_approval_list_label">MRN Approval List</string>
+
+    <!--Numbers-->
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="ten">10</string>
+    <string name="eleven">11</string>
+
+
+    //Fragment Button Names
+    <string name="approved_by_directorlabel">Approved By Director</string>
+    <string name="approved_by_hodlabel">Approved By HOD</string>
+    <string name="product_detail_rejectlabel">Reject</string>
+
+    //Response null messages
+    <string name="purchase_order_detail_listnull">Purchase order list is null</string>
+
+    <string name="no_mrn_available_status">No MRN Available</string>
+    <string name="purchase_order_detail_notfound">No Purchase order details</string>
+    <string name="invoice_detail_notfound">No Invoice Details</string>
+
+    //Spinner Adapter
+    <string name="company_name_spinner_title">Company Name</string>
+    <string name="project_name_spinner_title">Project Name</string>
+    <string name="material_category_name_spinner_title">Material Category Name</string>
+    <string name="material_name_spinner_title">Material Name</string>
+    <string name="building_name_spinner_title">Building Name</string>
+    <string name="wing_name_spinner_title">Wing Name</string>
+    <string name="sales_name_spinner_title">Sales Person Name</string>
+    <string name="engineer_name_spinner_title">Engineer Name</string>
+    <string name="supplier_name_spinner_title">Supplier Name</string>
+    <string name="godown_name_spinner_title"> GoDown Name</string>
+
+    //Login Activity
+    <string name="user_name_hint">Username</string>
+    <string name="invalid_credentials">Invalid Credentials</string>
+    <string name="show_label">Show</string>
+    <string name="password_hint">Password</string>
+    <string name="address_lable">Address</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="remember_me_label">Remember me</string>
+    <string name="sign_in_label">Login</string>
+    <string name="forgot_password_label">Forgot password?</string>
+    <string name="new_registration">New registration</string>
+    <string name="register">Register</string>
+    <string name="registration">Registration</string>
+    <string name="facebook_login_label">Login with Facebook</string>
+    <string name="google_login_label">Login with Google</string>
+    <string name="user_name_empty">Username can\'t be empty</string>
+    <string name="username_empty">Username should not be Empty</string>
+    <string name="username_error">Please Enter Register Username</string>
+    <string name="email_or_mobile_number">Email / Mobile Number</string>
+    <string name="successfully_registered">You have successfully registered\ Please log-In to continue.</string>
+    <string name="work_details_added_successfully">Work Details added successfully.</string>
+    <string name="email_id_or_mobile_number">Please enter your register mobile number or Email Id correctly</string>
+    <string name="vocuher_entry_successful_message">Voucher entry successfully done</string>
+    <string name="attendance_entry_successful_message">Attendace entry successfully done</string>
+    <!--for test purpose-->
+    <string name="usename_promt">Please enter username</string>
+    <string name="password_promt">Please enter  password</string>
+
+    <string name="select_vendor_label">Select vendor</string>
+    <string name="work_description_label">Work Description</string>
+    <string name="material_description_label">Material Description</string>
+    <string name="material_name_label">Material Name</string>
+    <string name="select_location_label">Choose your location</string>
+    <string name="current_date_time_label">Current date and time</string>
+    <string name="from_date_label">From Date</string>
+    <string name="to_date_label">To Date</string>
+    <string name="unit_label">Unit</string>
+    <string name="qty_label">Qty</string>
+    <string name="no_item_in_cart">No item in cart.</string>
+    <string name="labour_label">Labour</string>
+    <string name="select_work_location">Select Work Location</string>
+    <string name="select_work_deatils_name">Work Details Name</string>
+    <string name="select_material_deatils_name">Material Details Name</string>
+    <string name="add_label">Add</string>
+    <string name="enter_your_remark_label">Enter your Remark</string>
+    <string name="add_material_to_list_label">Add material to list</string>
+
+    <string name="delete_label">Delete</string>
+    <string name="please_select_work_details_name_label">please select work details name</string>
+    <string name="please_select_qty_label">please enter Quantity name</string>
+    <string name="please_enter_qty__greater_than_zero_label">please enter Quantity greater than zero</string>
+    <string name="please_select_units_label">please enter units name</string>
+    <string name="please_select_materiak_details_name_label">please select material details name</string>
+    <string name="are_you_sure_you_want_to_delete">Are you sure you want to delete?</string>
+    <string name="sr_number">Sr. No</string>
+
+    //Registration Activity
+    <string name="employee_name">Employee Name</string>
+    <string name="vendor">Vendor</string>
+    <string name="designation_label">Designation</string>
+    <string name="department_label">Department</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="membership_number">Membership Number</string>
+    <string name="pincode">PinCode</string>
+    <string name="user_name">User Name</string>
+    <string name="email_id">Email Id</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="in_time">In Time</string>
+    <string name="out_time">Out Time</string>
+    <string name="user_type">User Type :</string>
+    <string name="ca">CA</string>
+    <string name="amount_label">Amount</string>
+    <string name="reason_label">Reason</string>
+
+    //Drawer Menu
+    <string name="history_label">Attendance History</string>
+    <string name="work_entry_label">Add Work Entry</string>
+    <string name="cash_history_label">Cash Voucher History</string>
+    <string name="cash_voucher_label">Add Cash Voucher</string>
+    <string name="add_work_entry">Add Work Entry</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="purchase_order_notfound">No Purchase oders</string>
+    <string name="logout">Logout</string>
+
+    //Common Dialog for success.
+    <string name="txtApprovalDirector"> Successfully Approved By Director</string>
+    <string name="txtApprovalTitle">Alert!!</string>
+    <string name="txtApprovalHoD">Successfully Approved By HOD</string>
+    <string name="confirm_approved_btn">OK</string>
+    <string name="engineer_approval">Successfully Approved By Engineer</string>
+    <string name="approved">Successfully Approved </string>
+    <string name="btn_save_appointment">Save Appoinment</string>
+    <string name="visitor_name_label">Visitor Name</string>
+    <string name="company_name_label">Company Name</string>
+    <string name="schedule_time_label">Schedule Time</string>
+    <string name="alloted_time_label">Alloted Time</string>
+    <string name="add_appointment_label">Add Appointment</string>
+    <string name="no_appointmentlist_data_txt">No Appointment Data Found</string>
+    <string name="btn_accept_label">Accept</string>
+    <string name="btn_reject_label">Reject</string>
+    <string name="visitor_detail_label">Visitor Detail</string>
+    <string name="btn_search">Search</string>
+    <string name="empty_fromdate_msg">Please select from date.</string>
+    <string name="empty_todate_msg">Please select to date.</string>
+    <string name="filtered_list">Result List</string>
+    <string name="filter_label">Filter </string>
+    <string name="date_selection_txt">Please select from date first.</string>
+
+    //Add USer
+    <string name="user_name_txt">User Name</string>
+    <string name="user_phone_number">Phone Number</string>
+    <string name="edt_password">Password</string>
+    <string name="edt_confirm_password">Confirm Password</string>
+    <string name="edt_reporting_label">Reporting To</string>
+    <string name="btn_save_user">Save User</string>
+    <string name="menu_add_user">Add User</string>
+    <string name="select_option">Select Employee</string>
+    <string name="data_not_found">Data Not Found</string>
+    <string name="close_label">Close</string>
+    <string name="no_of_visitor_label">No of Visitors</string>
+    <string name="no_of_visitor_limit">Limit for visitors is less or equal to 11</string>
+    <string name="btn_approve_label">Approve</string>
+    <string name="enter_your_id_txt">Enter your Id</string>
+    <string name="your_feedback_txt">Your Feedback</string>
+    <string name="feedback_txt">Feedback</string>
+
+    <string name="smile_rating_terrible">Terrible</string>
+    <string name="smile_rating_bad">Bad</string>
+    <string name="smile_rating_okay">Okay</string>
+    <string name="smile_rating_good">Good</string>
+    <string name="smile_rating_great">Great</string>
+    <string name="feedback_saved_msg">Your feedback sent successfully, Thank you for your contribution</string>
+    <string name="report_txt">Reports</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="btn_send_txt">Send</string>
+    <string name="close_lable">Close</string>
+    <string name="mail_sent_msg">Mail Sent Successfully.</string>
+
+    <string-array name="names">
+        <item>@string/smile_rating_terrible</item>
+        <item>@string/smile_rating_bad</item>
+        <item>@string/smile_rating_okay</item>
+        <item>@string/smile_rating_good</item>
+        <item>@string/smile_rating_great</item>
+    </string-array>
+
+</resources>

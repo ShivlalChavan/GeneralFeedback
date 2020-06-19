@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_divider_color">
+
+
+
+    <FrameLayout
+        android:id="@+id/childContentRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@color/colorWhite"
+           >
+
+
+
+
+
+            <!--name flow layout-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size_dp10"
+                android:orientation="vertical"
+                android:focusableInTouchMode="true"
+                android:layout_margin="@dimen/size_dp20"
+                android:focusable="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_dp15">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/enter_your_email"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/font_size_14sp" />
+
+
+                </LinearLayout>
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/size_dp5"
+                    android:layout_marginLeft="@dimen/size_dp15"
+                    android:layout_marginRight="@dimen/size_dp15">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/edittext_rectangle_with_gray_broder"
+                            android:orientation="vertical"
+                            android:gravity="center">
+
+
+                            <!--Name Container-->
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/size_dp36"
+                                android:layout_gravity="center"
+                                android:padding="@dimen/size_dp2"
+                                android:gravity="center_vertical">
+
+                                <EditText
+                                    android:id="@+id/edtEmail"
+                                    style="@style/floatingEditTextStyle"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@null"
+                                    android:inputType="textEmailAddress"
+                                    android:imeOptions="actionDone"/>
+
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/size_dp10"
+                android:layout_marginLeft="@dimen/size_dp30"
+                android:layout_marginRight="@dimen/size_dp30">
+
+
+
+
+                <TextView
+                    android:id="@+id/btnSend"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_dp48"
+                    android:background="@color/dark_purple"
+                    android:gravity="center"
+                    android:layout_margin="@dimen/size_dp15"
+                    android:text="@string/btn_send_txt"
+                    android:textColor="@color/white">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_group_1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:checked="true"
+            android:icon="@drawable/home_icon"
+            android:title="@string/home"/>
+
+        <!--<item
+            android:id="@+id/feedback"
+            android:icon="@drawable/add"
+            android:title="@string/feedback_txt"/>-->
+
+        <item
+            android:id="@+id/report"
+            android:icon="@drawable/ic_report"
+            android:title="@string/report_txt"/>
+
+        <!--<item
+            android:id="@+id/add_appointment"
+            android:icon="@drawable/add"
+            android:title="@string/add_appointment_label"/>
+
+        <item
+            android:id="@+id/add_user"
+            android:icon="@drawable/add"
+            android:title="@string/menu_add_user"/>-->
+
+
+     <!--   <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout_icon"
+            android:title="@string/logout"/>-->
+
+        <!--<item
+            android:id="@+id/attendance_history"
+            android:icon="@drawable/history_icon_blue"
+            android:title="@string/history_label" />
+
+        <item
+            android:id="@+id/cash_history"
+            android:icon="@drawable/history_icon_blue"
+            android:title="@string/cash_history_label" />-->
+
+
+    </group>
+
+
+
+
+</menu>
